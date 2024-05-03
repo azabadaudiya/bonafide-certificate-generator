@@ -1,0 +1,209 @@
+*{
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+.title{
+ 
+margin: auto;
+    font-size:1.5vw;
+}
+
+
+/* MAIN */
+
+main{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+
+img.camp{
+    width: 50%;
+}
+
+.para{
+    text-align: justify;
+    margin-top: 20px;
+}
+
+  /* FACULTY PAGE */
+
+.mainbody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    /* display: flex; */
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ 
+  div#row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  /* FACTULTY PHOTO */
+
+  
+.content{
+    border: 2px;
+    padding: 20px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 1px 1px 2px 2px #bebebe;
+    
+}
+.content img{
+height: 200PX;
+    width: 200PX;
+    object-fit:fill;
+    justify-content: center;
+    align-items: center;
+}
+ /* FACULTY INFORMATION */
+h3{
+    justify-content: center;
+    text-align: center;
+    margin: 3px;
+    font-style: normal;
+   font-weight: 300;
+}
+h5{
+    justify-content: center;
+    text-align: center;
+    margin: 3px;
+    font-weight: 200;
+}
+
+#new{
+        color: #ffffff;
+        background-color: #060e40;
+        padding: 4px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border-radius: 4px;
+        cursor: pointer;
+        border: none;
+        
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+
+/*  APPLICATION FORM HEADING */
+.apphead{
+    justify-content: center;
+    align-items: center;
+  height: 40px;
+
+}
+.apphead h2{
+    text-align: center;
+    align-items: center;
+    font-weight: 100;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  
+}
+
+
+
+hr{
+    margin: 2px;
+    
+}
+
+
+
+h6{
+    padding:0px 20px 30px 20px;
+    margin: 5px;
+  font-size: medium;
+  font-weight: 300;
+
+}
+input[type="text"],input[type="number"],input[type="file"],input[type="email"],textarea,input[type="date"]{
+    margin: 5px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+}
+input[type="submit"]{
+     background-color: rgba(42, 185, 92, 0.832);
+    margin: 5px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    color: #fff;
+    font-family:monospace;
+font-weight: 300;
+cursor:grab;
+}
+input[type="submit"]:hover{
+    background-color: rgba(79, 144, 104, 0.718);
+}
+
+/* RESPONSIVENESS OF FACULTY PAGE*/
+@media only screen and (max-width: 350px)
+{ 
+  header{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+}
+
+@media only screen and (max-width: 350px)
+{ 
+    section.mainbody{display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;}
+
+ div#row{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ }
+}
+@media only screen and (min-width: 350px) and (max-width: 500px)
+{ 
+  
+ div#row{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ }
+}
+
+@media only screen and (max-width: 600px){
+.apphead h2{
+   
+   margin: 10px;
+  height: 40px;
+  font-size:small;
+  text-align: center;
+  align-items: center;
+  font-weight: 200px;
+}
+}
+    
+
+
+ 
